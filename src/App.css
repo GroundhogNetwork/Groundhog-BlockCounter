@@ -3,12 +3,45 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: bounce 2s;
+  animation-iteration-count: infinite;
   height: 40vmin;
 }
 
+@-webkit-keyframes grow {
+  from {
+    -webkit-transform:scale(0.5);
+  }
+  to {
+    -webkit-transform:scale(1);
+  }
+  to {
+    -webkit-transform:scale(0.5);
+  }
+}
+
+.bounce {
+  animation: bounce 2s;
+}
+
+@keyframes bounce {
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-12px);
+  }
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #2D2424;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,4 +62,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.groundhog-brown {
+  color: #2D2424;
+}
+
+.groundhog-green {
+  color: #5BC461;
+}
+
+.groundhog-blue {
+  color: aqua;
 }
