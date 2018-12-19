@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Groundhog-BlockCounter/precache-manifest.09017f1f2580874bcd90a12f5c8b13ad.js"
+  "/Groundhog-BlockCounter/precache-manifest.f329d1904fb76360af01c4e8f4cb4206.js"
 );
 
 workbox.clientsClaim();

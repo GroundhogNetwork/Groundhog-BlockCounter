@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "415a3e8dd2f55e5d9e83",
+    "revision": "8edc66e178440bff711c",
     "url": "/Groundhog-BlockCounter/static/css/main.a12fd243.chunk.css"
   },
   {
-    "revision": "415a3e8dd2f55e5d9e83",
-    "url": "/Groundhog-BlockCounter/static/js/main.415a3e8d.chunk.js"
+    "revision": "8edc66e178440bff711c",
+    "url": "/Groundhog-BlockCounter/static/js/main.8edc66e1.chunk.js"
   },
   {
     "revision": "f988af386b2f611d4842",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/Groundhog-BlockCounter/static/media/logo.f2366047.png"
   },
   {
-    "revision": "a6be4707c359f0068b32555aee217bc8",
+    "revision": "216a9839c249a7c2e2e5f88cf3f3a26d",
     "url": "/Groundhog-BlockCounter/index.html"
   }
 ];
